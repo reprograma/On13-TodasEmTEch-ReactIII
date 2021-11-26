@@ -32,9 +32,9 @@ Vamos aprender a testar em react?
 
 1) Vamos verificar no package.json se temos as dependencias testing library e o script de test
 
-2) Escrevemos o arquivo de test com a extensão .test.js
+2) Escrevemos o arquivo de test com a extensão .test.js ou .spec.js
 
-3) Dentro do arquivo de test vamos importa o arquivo que queremos testar e também as funções do testing library
+3) Dentro do arquivo de test vamos importar o arquivo que queremos testar e também as funções do testing library
 
 ```
 import { render, screen } from '@testing-library/react'
@@ -58,6 +58,11 @@ describe('Hello world', () => {
 >> No futuro, é muito importante estudar sobre TDD (Programação orientada a testes), saber também como criar mocks de objetos, chamadas de API e funções. Além de ser bastante críticas em avaliar quais casos de testes fazem sentido. :) 
 
 
+<br>
+<br>
+
+<br>
+<br>
 
 # 2) Projeto Guiado - App Minha listinha
 
@@ -65,7 +70,7 @@ describe('Hello world', () => {
 
 Uma aplicação simples de TODO LIST, contendo 3 funcionalidades:
 
-* Inserir uma nova tarefa
+* Inserir uma nova tarefa (Não permitir criar a tarefa sem escrever nada no titulo da tarefa)
 * Marcar tarefas como concluídas
 * Apagar tarefas
 
@@ -92,15 +97,16 @@ Uma aplicação simples de TODO LIST, contendo 3 funcionalidades:
 
 #### Calma! É só mais uma TAREFINHA DE CASA pra chamar de sua! Já treinamos bastante com nossos exemplos na aula!
 
-Vamos usar o mesmo projeto feito na sala de aula e apenas incluir os componentes abaixo:
+Vamos usar o mesmo projeto Minha listinha feito na sala de aula e apenas incluir os componentes abaixo:
 
 
 1) Incluir um menu
-2) Incluir uma página com tema livre 
-3) Criar rotas 
-4) Atualizar no github para atualizar automaticamente no netlify.
-5) A entrega da semana no classroom serão 2 links: o seu link do netlify e o seu link do github
-6) Arraseee!
+2) Incluir footer
+3) Incluir uma página com tema livre( você decide o conteúdo)
+4) Criar rotas
+5) Atualizar no github para atualizar automaticamente no netlify.
+6) A entrega da semana no classroom serão 2 links: o seu link do netlify e o seu link do github
+7) Arraseee!
 
 
 #### Vamos nos conectar!
