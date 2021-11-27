@@ -26,9 +26,27 @@ Além disso, o mercado espera que advoguemos pela qualidade em nosso trabalho.
 
 Por isso, em entrevistas de emprego costumam perguntar se temos alguma familiaridade com testes unitários. Essa aula vai ser o seu passo incial para sua resposta a essa pergunta ser 'SIM'.
 
+> Benefícios de testar seu código:
+
+* Encontrar e corrigir bugs
+* Aumentar a confiabilidade da sua aplicação
+* Otimizar o tempo da pessoa QA
+* Serve como documentaçãos
+
+<br/>
+<br/>
+
+
+> Bloco de teste
+
+* Renderizar o componente que queremos testar
+* Encontrar os elementos que queremos interagir
+* Interagir com esses elementos
+* Afirmar o resultado esperado
+
 Quando criamos nossas aplicações com create-react-app a configuração para usar testes já vem toda pronta. São alguns daqueles arquivos default que a gente apagou lá na primeira aula.
 
-Vamos aprender a testar em react?
+Vamos aprender a testar em react? Na prática a gente vai imitar comportamento humano interagindo com a aplicação só que de forma automatizada. Sim, você vai poder dizer que começou a estudar testes unitários e automatizados com React Testing Library. Vamos lá!
 
 1) Vamos verificar no package.json se temos as dependencias testing library e o script de test
 
