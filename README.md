@@ -73,7 +73,17 @@ describe('Hello world', () => {
 
 5) Para rodar o scrip de test, no terminal rodamos yarn test
 
->> No futuro, é muito importante estudar sobre TDD (Programação orientada a testes), saber também como criar mocks de objetos, chamadas de API e funções. Além de ser bastante críticas em avaliar quais casos de testes fazem sentido. :) 
+>No futuro, é muito importante estudar sobre TDD (Programação orientada a testes), saber também como criar mocks de objetos, chamadas de API e funções. Além de ser bastante críticas em avaliar quais casos de testes fazem sentido. :) 
+
+<br>
+<br>
+
+> Material de apoio nos estudos de testes com React Testing Library:
+
+- playlist completa com o básico: https://www.youtube.com/watch?v=7dTTFW7yACQ&list=RDCMUCW5YeuERMmlnqo4oq8vwUpg&start_radio=1&t=6s
+- documentação: https://testing-library.com/docs/
+- artigo de projeto com teste no react e com typescript: https://blog.rocketseat.com.br/introducao-a-testing-library-testando-componentes-react/
+- Priorização de uso das queries: https://www.youtube.com/watch?v=5ptcfSEH7vw
 
 
 <br>
@@ -96,19 +106,21 @@ Uma aplicação simples de TODO LIST, contendo 3 funcionalidades:
 
 # Nossas tarefas
 
-[ ] Create React App
+[x] Create React App
 
-[ ] Criar o component Header (html, css e tests)
+[x] Criar o component Header (html, css e tests)
 
-[ ] Criar o component List com a função de add uma tarefa (html, css e tests)
+[x] Criar o component List com a função de add uma tarefa (html, css e tests)
 
-[ ] Criar e testar as funções de completar uma tarefa e de deletar uma tarefa
+[] Criar e testar as funções de completar uma tarefa 
 
-[ ] Incluir configuração do Netlify
+[x] Criar e testar as funções de deletar uma tarefa
 
-[ ] Subir no github
+[] Incluir configuração do Netlify
 
-[ ] Subir no Netlify
+[x] Subir no github
+
+[x] Subir no Netlify
 
 ---
 **Desafio:**
