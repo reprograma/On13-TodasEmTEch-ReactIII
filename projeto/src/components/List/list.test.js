@@ -30,8 +30,6 @@ describe('List.jsx', () => {
 
     const addedSecondTaskTitle = screen.getByText('Estudar teste')
     expect(addedSecondTaskTitle).toHaveTextContent('Estudar teste')
-
-
   })
 
   it('should not be able to add task empty', () => {
@@ -77,5 +75,40 @@ describe('List.jsx', () => {
 
     expect(addedFirstTaskTitle).not.toBeInTheDocument()
     expect(addedSecondTaskTitle).toBeInTheDocument()
+  })
+
+  it('should be able to complete a task', () => {
+    render(<List />)
+
+    const inputElement = screen.getByPlaceholderText('Adicionar nova tarefa')
+    const buttonElement = screen.getByTestId('add-task')
+
+    fireEvent.change(inputElement, {
+      target: {
+        value: 'Estudar react'
+      }
+    })
+
+    fireEvent.click(buttonElement)
+
+    fireEvent.change(inputElement, {
+      target: {
+        value: 'Estudar teste'
+      }
+    })
+
+    fireEvent.click(buttonElement)
+
+    const [item1, item2] = screen.getAllByTestId('task')
+
+    if(item1.firstChild) {
+      fireEvent.click(item1.firstChild)
+    }
+
+    expect(item1).toBeInTheDocument()
+    expect(item1).toHaveClass('completed')
+
+    expect(item2).toBeInTheDocument()
+    expect(item2).not.toHaveClass('completed')
   })
 })

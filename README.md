@@ -112,11 +112,11 @@ Uma aplicação simples de TODO LIST, contendo 3 funcionalidades:
 
 [x] Criar o component List com a função de add uma tarefa (html, css e tests)
 
-[] Criar e testar as funções de completar uma tarefa 
+[x] Criar e testar as funções de completar uma tarefa 
 
 [x] Criar e testar as funções de deletar uma tarefa
 
-[] Incluir configuração do Netlify
+[x] Incluir configuração do Netlify
 
 [x] Subir no github
 
